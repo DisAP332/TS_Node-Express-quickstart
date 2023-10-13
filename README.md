@@ -30,7 +30,15 @@ The tsconfig.json file was edited to specify the outdir to be dist.
 
 The env.d.ts file was added to add types to the .env package.
 
+# Make sure you initilize typescript!
+
+run in shell:
+npx tsc
+
 # test if it works!
+
+run in shell:
+npm run serve
 
 Loadup postman. try to get http://localhost:8080/test
 
