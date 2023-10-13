@@ -13,8 +13,8 @@ app.get("/test", async (req: Request, res: Response) => {
   res.send("we here");
 });
 
-const httpPort = 8080;
-const httpsPort = 8443;
+const httpPort = process.env.HTTP_PORT;
+const httpsPort = process.env.HTTPS_PORT;
 
 app.listen(httpPort, () => {
   console.log(`HTTP server running on ${httpPort}`);
