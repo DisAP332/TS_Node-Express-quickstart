@@ -29,3 +29,9 @@ Here we use rimraf to delete the dist folder on every rebuild, and then TypeScri
 The tsconfig.json file was edited to specify the outdir to be dist.
 
 The env.d.ts file was added to add types to the .env package.
+
+# test if it works!
+
+Loadup postman. try to get http://localhost:8080/test
+
+8080 replaced by whatever you indicated your port to be in your .env
